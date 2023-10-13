@@ -1,0 +1,696 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding-inline: 90px;   
+    display: flex;
+    padding-top: 20px;
+}
+
+.navbar-left ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-left h1{
+    font-size: 40px;
+    font-weight: 20px;
+    margin-top: -12px;
+
+}
+
+.navbar-left li a{
+    color: white;
+    margin: 20px 20px 20px;
+    margin-top: 20%;
+    text-decoration: none;
+}
+
+.navbar-left li a:hover{
+    background-color: rgb(83, 80, 80);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.navbar-right ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-right li a{
+    color: white;
+    margin: 20px 20px 20px 20px ;
+    text-decoration: none;
+}
+
+.navbar-right button{
+background: none;
+color: white;
+padding: 5px;
+border-radius: 20px;
+border: none;
+margin-top: -8px;
+padding-inline: 15px;
+}
+
+#singup{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.navbar-right li a:hover{
+    background-color: rgb(83, 80, 80);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#singup:hover{
+     border-radius: 20px;
+     background-color: rgb(97, 93, 93);
+     padding: 10px;
+     color: white;
+}
+
+.navbar-right button:hover{
+    border-radius: 20px;
+    background-color: rgb(77, 75, 75);
+
+}
+
+/* Nav-bar Complete */
+
+.hero-section{
+    width: 100%;
+    height: 88vh;
+    background-image: url(./Rider_Home_bg_desktop2x.jpeg);
+    padding-top: 60px;
+    padding-left: 13%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box{
+    width: 42%;
+    height: 470px;
+    background-color:white;
+    padding: 30px;
+
+}
+
+.icon{
+    width: 50%;
+    height:20%; 
+    padding-left: 55%;
+}
+
+.icon ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.icon li {
+    padding-left: 50px;
+    letter-spacing: 120px;
+}
+
+.text {   
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10%;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+hr{
+    margin-top: 20px;
+}
+
+.box h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.box input{
+    width: 100%;
+    height: 5vh;
+    border: none;
+    background-color: rgb(239, 235, 235);
+    margin: 15px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.box button{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    
+}
+
+#latter{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+
+/* 2nd Part end */
+.img-text-section{
+    width: 100%;
+    height: 40vh;
+    background-image: url('./HP-U4B-NYC-bkg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.img-text-section h1{
+    padding-top: 40px;
+    padding-left: 15%;
+    font-weight: 800;
+}
+
+.img-text-section p{
+    padding-left: 15%;
+    padding-top: 30px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.img-text-section button{
+    background-color: black;
+    color: white;
+    margin: 12px 0px 0px;
+    padding: 14px 25px;
+    font-size: 16px;
+    margin-top: 12px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+/* 3rd Part end */
+
+
+.auto-container{
+    width: 100%;
+    height: 90vh;
+}
+
+.autotop-text{
+    padding: 3%;
+    margin-left: 8%;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.auto{
+    display: flex;
+    margin-left: 10%;
+}
+
+.auto-text{
+    padding-top: 4%;
+    margin-left: 2%;
+}
+
+.auto-text h2{
+    font-weight: 700;
+}
+
+.auto-arrow{
+    padding-top: 7%;
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+.bike{
+    display: flex;
+    margin-left: 55%;
+    margin-top: -12%;
+}
+
+.bike-text{
+    padding-top: 4%;
+    margin-left: 2%;
+}
+
+.bike-text h2{
+    font-weight: 700;
+}
+
+.bike-arrow{
+    padding-top: 9%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.uber-rentals{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+.rentals-text{
+    padding-top: 4%;
+    margin-left: 2%;
+}
+
+.rentals-arrow{
+    padding-top: 7%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.uber-intercity{
+    display: flex;
+    margin-left: 55%;
+    margin-top: -13%;
+}
+
+.intercity-text{
+    padding-top: 7%;
+    margin-left: 3%;
+}
+
+.intercity-arrow{
+    padding-top: 12%;
+    margin-left: 2%;
+}
+
+/* auto-container end */
+
+.safety-container-text{
+    margin-left: 11%;
+    margin-top: 5%;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.safety-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.safety{
+    width: 42%;
+    height: 80vh;
+    margin-top: 5%;
+    margin-left: 8%;
+    background-size: cover;
+}
+
+.safety h3{
+    margin-top: 3%;
+}
+
+.safety p{
+    margin-block: 10px;
+}
+
+.safety img{
+    width: 100%;
+}
+
+.safety-p span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+
+
+/* safety part end */
+
+.cities{
+    width: 40%;
+    height: 70vh;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-size: cover;
+}
+
+.cities img{
+    width: 100%;
+    height: 57vh;
+}
+
+.cities h3{
+    margin-top: 18px;
+}
+
+.cities p{
+    margin-top: 23px;
+}
+
+/* cities part end */
+
+.logos-container{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+}
+
+.logo-1{
+    width: 27%;
+    height: 50vh;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.logo-1 img{
+    margin-top: 2%;
+}
+
+.logo-1 h4{
+    margin-top: 3%;
+}
+
+.logo-1 p{
+    margin-top: 4%;
+}
+
+.logo-p{
+    margin-top: 7%;
+}
+
+/* logo-1 part end */
+
+.logo-2{
+    width: 27%;
+    height: 50vh;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.logo-2 img{
+    margin-top: 2%;
+}
+
+.logo-2 h4{
+    margin-top: 3%;
+}
+
+.logo-2 p{
+    margin-top: 4%;
+}
+
+.logo-p{
+    margin-top: 7%;
+}
+
+/* logo-3 part end */
+
+.logo-3{
+    width: 27%;
+    height: 50vh;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.logo-3 img{
+    margin-top: 2%;
+}
+
+.logo-3 h4{
+    margin-top: 3%;
+}
+
+.logo-3 p{
+    margin-top: 4%;
+}
+
+.logo-p{
+    margin-top: 7%;
+}
+
+/* logo part end */
+
+.scan-qr-container{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(246,246,246);
+}
+
+.top-text h1{
+    height: 10vh;
+    padding: 5%;
+    margin-left: 4%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.main-qr-container{
+    width: 100%;
+    height: 40vh;
+    padding-top: 3%;
+    display: flex;
+}
+
+.qr-container{
+    width: 40%;
+    height: 30vh;
+    background-color: white;
+    margin-left: 9%;
+    margin-top: -2%;
+    
+}
+
+.qr-1{
+    padding: 1%;
+    display: flex;
+}
+
+.qr-1-text{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.qr-1-arrow{
+    margin-top: 13%;
+    margin-left: 15%;
+    font-size: larger;
+}
+
+.qr-container-2{
+    width: 40%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    margin-left: 5%;
+    margin-top: -2%;
+
+}
+
+.qr-2{
+    padding: 1%;
+    display: flex;
+}
+
+.qr-2-text{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.qr-2-arrow{
+    margin-top: 13%;
+    margin-left: 15%;
+    font-size: larger;
+}
+
+.sing-up-container{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+}
+
+.drive{
+    width: 40%;
+    height: 10vh;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.drive span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.drive span h1{
+    font-size: 38px;
+    font-weight:bolder;
+}
+
+.drive i{
+    padding-left: 15%;
+    padding-top: 1%;
+    font-weight:bold;
+    font-size: 170%;
+}
+
+hr{
+    margin-top: 30px;
+    height: 3px;
+    background-color: black;
+}
+
+
+.ride{
+    width: 45%;
+    height: 10vh;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.ride span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ride span h1{
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.ride i{
+    padding-left: 13%;
+    padding-top: 1%;
+    font-weight:bold;
+    font-size: 170%;   
+}
+
+.footer-container{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-color: black;
+    line-height: -10%;
+}
+
+.footer-1{
+    width: 100%;
+    height: 30%;
+    border: 1px solid black;
+    padding-inline: 10%;
+    color: white;
+    padding-top: 4%;
+    font-size: 20px;
+
+}
+
+.uber-2 p{
+    
+    margin-top: 20px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    padding-inline: 10%;
+}
+
+.list ul li{
+    list-style: none;
+    
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.list h3{
+    color: white;
+}
+
+.list-icon-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+}
+
+.list-icon ul li{
+    color: white;
+    display: flex;
+    margin: 50%;
+}
+.list-icon ul{
+    display: flex;
+}
+
+.bt button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    padding-top: 22%;
+}
+
+.google-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:start;
+    color: white;
+}
+.google-play{
+    margin: 10px;
+    margin-left: 10%;
+}
+
+.google-play{
+    display: flex;
+}
+
+.apple{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.last-text-container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 30px;
+}
+
+.last-right-text ul{
+    display: flex;
+    list-style: none;
+}
+.last-right-text ul li{
+    margin: 8px;
+}
+.last-right-text ul li{
+    text-decoration: none;
+}
